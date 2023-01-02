@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pages</title>
+    <style>
+        body{text-align:center;}
+        table, th, td {border: 1px solid red; align:center;}
+
+        .center {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        #courseList{display: inline-block;text-align: left;}
+    </style>
+</head>
+<body>
+    <div style="background-color:yellow">
+        <h1 id="table-heading">TABLES AND LISTS</h1><br>
+        <table class="center" id="courseTable""width:50%">
+
+        <tr><th>Roll No</th><th>Name</th><th>Course</th><th>Department</th></tr>
+        <tr><td>1</td><td>VARSHA</td><td>C++</td><td>CSE</td></tr>
+        <tr><td>2</td><td>LOKSHANA</td><td>PYTHON</td><td>CSE</td></tr>
+        <tr><td>3</td><td>DHARSHINI</td><td>JAVA</td><td>CSE</td></tr>
+        <tr><td>4</td><td>SOFAN</td><td>KOTLIN</td><td>CSE</td></tr>
+        <tr><td>5</td><td>RADHA</td><td>JAVA.NET</td><td>CSE</td></tr>
+        <tr><td>6</td><td>PREETHI</td><td>HTML</td><td>CSE</td></tr>
+        </table><br>
+        <h2 id="courseHeading">No Of Courses Available</h2>
+        <ul id="courseList"><li>ADPP</li><li>ADJP</li><li>HTML</li><li>MYSQL</li><li>JAVA.NET</li></ul>
+    </div>
+       
+    <div style="background-color:lightgreen">
+        <h1 id="imageHeading">Image</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB1ArK2UNkH7RAcGiSoJnWPMTxpzjPRYFIGQ&usqp=CAU" alt="Workplace" usemap="#workmap" width="400" height="379">
+    </div>
+       
+    <div style="background-color:light green">
+        <h1>FILL THE FORM</h1>
+
+        <form id="login-form">
+        <label>Name :</label>
+        <input type="text" id="fname"><br>
+        <label>Password :</label>
+        <input type="text"><br>
+        <label>Email :</label>
+        <input type="text"><br>
+        <label for="courses">Courses :</label>
+        <select name="Courses" id="course">
+          <option value="PYTHON">CSE</option>
+          <option value="HTML">CSE</option>
+          <option value="JAVA">CSE</option>
+          <option value="CLOUD COMPUTING">CSE</option>
+          <option value="MYSQL">CSE</option>
+
+        </select><br>
+        <label for="Address">Address :</label>
+        <textarea id="Address" name="Address" rows="8" cols="72"></textarea><br>
+
+        <label for="Country">Country :</label>
+        <input list="Countries" name="Countries" id="Country">
+        <datalist id="Countries">
+          <option value="INDIA">
+          <option value="PAKISTAN">
+          <option value="AFGANISTAN">
+          <option value="NEPAL">
+          <option value="GERMANY">
+
+        </datalist><br>
+        <button id="submit_btn" type="submit" form="login-form" value="Submit">Submit</button>
+        </form>
+    </div>
+       
+    <div style="background-color:MERUN">
+        <h1 id="frameHeading">FRAMES IN HTML</h1><br>
+        <iframe id="frameImage1" src="https://www.w3schools.com"></iframe>
+        <iframe id="frameImage2" src="https://www.nextgen.rmkec.ac.in"></iframe>
+    </div>
+</body>
+</html>
