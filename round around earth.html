@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round Around Earth</title>
+    <style type="text/css">
+        *{
+            background-color:black;
+        }
+        #backgroundImage{
+            position: absolute;
+            right: -500px;
+        }
+        #b{
+            position: absolute;
+            left: 50px;
+        }
+        form{
+            position: absolute;
+            left: 300px;
+            border-style: solid;
+            background-color: white;
+            border-color: white;
+        }
+        textarea{
+            background-color: white;
+        }
+        input{
+            background-color: white;
+        }
+        select{
+            background-color: white;
+        }
+        label{
+            background-color: white;
+        }
+        header{
+            background-color: white;
+        }
+        option{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://th.bing.com/th/id/R.537b67ddba8383fa69d63e23a2577553?rik=%2fW%2bpMnt41id%2bQA&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-earthearthplanetglobethird-planet-from-the-sun-1411526987450icb4m.png&ehk=QTD6eCf%2b2sN8RlHUO6yphhw%2boUYudCIA97EVss247QQ%3d&risl=1&pid=ImgRaw&r=0" width="1000px" height="640px" id="backgroundImage">
+        <img src="https://th.bing.com/th/id/R.5e3ade9f1363d055d11eda0848d4d0aa?rik=5VWy%2bbSA2K6j1g&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fspaceman-png-hd-spaceman-2480.png&ehk=bklPxSY2Jlul6ouMnLuBi7eFZCVInPffB24hsVj6pA4%3d&risl=&pid=ImgRaw&r=0" width="200px" height="500px" id="b">
+    </div>
+    <div>
+        <form id="departure">
+            <h1 id="heading">Rocket around the Earth</h1>
+            <label id="departure">Departure Country</label><br>
+            <select name="country" id="dropDown">
+                <option value="">India</option>
+                <option value="">USA</option>
+                <option value="">Russia</option>
+            </select><br>
+            <label>No. of Space Travellers</label><br>
+            <textarea  id="noOfTravellers" cols="30" rows="10"></textarea><br>
+            <label>Your email</label><br>
+            <textarea name="" value="default Value" id="email" cols="30" rows="10"></textarea><br>
+            <label>Do you wanna rent a space suit?</label><br>
+            <input type="radio" name="suit" value="Yes,Please" id="yesOrNo">
+            <input type="radio" name="suit" id="yesOrNo" value="No,I have my own"> <br>
+            <input type="submit" name="submit" value="TAKE US TO SPACE" id="submit">
+        </form>
+    </div>
+</body>
+</html>

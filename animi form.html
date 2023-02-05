@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            header{
+                background-color:rgb(255, 143, 78);
+                margin-left: -8px;
+                margin-top: -8px;
+                margin-right: 55%;
+                padding-top: 4%;
+                padding-bottom: 4%;
+                font-size: 6ch;
+                text-align: center;
+                border-top-right-radius: 30%;
+                border-bottom-right-radius: 30%;
+                color: white;
+            }
+            body{
+                background-color:rgb(15, 12, 37);
+            }
+            #submitButton{
+                background-color: rgb(255, 143, 78);
+                border-radius: 30%;
+                padding: 5%;
+                color: white;
+                
+            }
+            input{
+                padding: 1%;
+            }
+            label{
+                color: white;
+            }
+            select{
+                color:rgb(15, 12, 37) ;
+                background-color:rgb(15, 12, 37);
+                padding-left: 95%;
+                padding-bottom: 15%;
+            }
+            input{
+                background-color:rgb(15, 12, 37);
+                padding-left: 40%;
+                padding-bottom: 15%;
+                color: white;
+            }
+            textarea{
+                background-color:rgb(15, 12, 37);
+                padding-left: 50%;
+                padding-bottom: 40%;
+                color: white;
+            }
+            #b{
+                position:absolute;
+                right: 25%;
+                top: 35%;
+            }
+            #a{
+                position:absolute;
+                left: 25%;
+                top: 35%;
+            }
+            #c{
+                position: absolute;
+                top: 40px;
+                left: 480px;
+            }
+            #d{
+                position: absolute;
+                top: 40px;
+                left: 30px;
+            }
+        </style>
+        <header id="heading"> <img src="https://logodix.com/logo/239866.png" width="75px" id="d"> ANIME-FORMS <img src="https://logodix.com/logo/239866.png" width="75px" id="c"></header>
+        
+    </head>
+    <body>
+        <form>
+            <div id="a">
+                <label>ANIMI-Name</label><br><input type "text" name="uname" id="nameTextBox"><br><br><br>
+            <label>ANIMI-(ORIGIN-COUNTRY)</label> <br>
+            <select id="countryTextBox">
+                <option>INDIA</option><br>
+                <option>USA</option><br>
+                <option>UK</option><br>
+                <option>JAPAN</option><br>
+            </select><br><br><br>
+            <label>No.of.Episodes</label><br>
+            <input type "text" name="Episodes" id="noOfEpisodeTextBox"><br><br><br>
+            <label>YOUR RATING</label><br><input type "text" name="RATING" id="yourRatingTextBox"><br><br><br>
+            <label>AWARDS</label><br><input type "text" name="AWARDS" id="awardsTextBox"><br><br><br>
+            </div>
+            <div id="b">
+                <label>DISCRIPTION ABOUT ANIMI</label><br>
+                <textarea "rows=50" "cols=40" id="descriptionTextBox"></textarea><br><br><br>
+                <input type="submit" value="submit" id="submitButton">
+            </div>
+        </form>
+    </body>
+</html>
